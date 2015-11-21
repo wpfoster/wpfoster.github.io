@@ -31,7 +31,7 @@ html{
 	padding: 0rem 0rem 0rem 0rem;
 	color: black;
 	background-color:#1c1d21;
-	font-size:200%;
+	font-size:150%;
 	
 }
 
@@ -300,21 +300,18 @@ footer{
 	
 	
 	
-@media (orientation:landscape){
+
+@media (min-width:1000px){
 	
 	body>div {
-		max-width:50%;
+		max-width:60%;
 	}
 	
-}
+	html{
 
-@media (orientation:portrait){
-
-	body>div {
-			max-width:98%;
+		font-size:100%;
+	
 	}
-
-
 	
 }
 
